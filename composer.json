@@ -20,8 +20,10 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"ArpabetToIPA" : "src"
+			"ArpabetToIPA\\" : "/src"
+		},
+		"psr-0" : {
+			"ArpabetToIPA\\" : "/src"
 		}
-	},
-	"minimum-stability" : "dev"
+	}
 }
