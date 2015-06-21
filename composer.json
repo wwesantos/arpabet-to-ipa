@@ -26,5 +26,12 @@
 			"ArpabetToIPA\\" : "/src"
 		}
 	},
-	"minimum-stability" : "stable"
+	"minimum-stability" : "dev",
+	"require-dev" : {
+		"php" : ">=5.3.0",
+		"phpunit/phpunit" : "4.7.4",
+		"squizlabs/php_codesniffer": "*",
+   		"wimg/php-compatibility": "dev-master",
+   		"simplyadmire/composer-plugins" : "@dev"
+	}
 }
